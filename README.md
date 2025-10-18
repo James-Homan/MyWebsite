@@ -23,10 +23,12 @@ Open it in VS Code (or your preferred environment).
 
 ### 1. HTML's
 
-- The main HTML page is   ``.
-- Supporting pages include: ``, ``, ``
-- 
+- The main HTML page is `index.html`.
+- Supporting pages include: `contact.html`, `coursePath.html`, `resume.html`
 
-### 2. Run the project
+### 2. CSS File
+- The CSS style page is `Style.css`.
+
+### 3. Run the project
 - This project will be designed to be deployed from GitHub.
 - Access will be through this link:
