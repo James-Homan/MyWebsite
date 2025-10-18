@@ -1,2 +1,32 @@
 # MyWebsite
-This is my first official webpage
+Resume Website Project
+
+This repository contains all codee to compile for a website. 
+
+My goals are to:
+
+- Create a working website
+- Have it display my current resume
+- Collect comments from users
+
+## Getting Started
+
+### 1. Clone or download this repository
+
+```bash
+git clone 
+```
+
+Open it in VS Code (or your preferred environment).
+
+## Usage
+
+### 1. HTML's
+
+- The main HTML page is   ``.
+- Supporting pages include: ``, ``, ``
+- 
+
+### 2. Run the project
+- This project will be designed to be deployed from GitHub.
+- Access will be through this link:
