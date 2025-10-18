@@ -14,7 +14,7 @@ My goals are to:
 ### 1. Clone or download this repository
 
 ```bash
-git clone 
+git clone https://github.com/James-Homan/MyWebsite.git
 ```
 
 Open it in VS Code (or your preferred environment).
