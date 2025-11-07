@@ -14,7 +14,9 @@
 	<body>
 		<div>
 			<!-- insert the logo to the left -->
-			<img style ="float: left; padding-right: 15px; border-radius: 0px;" src ="images/LOGO.png" alt="logo" height="60" width="60">
+			<a href="index.html">
+				<img id="logo" src ="images/LOGO.png" alt="logo">
+			</a>
 			<h1 style="border-bottom: 2px solid gray; padding-bottom: 15px;"> James G Homan </h1>
 			<a id="top"></a> <!-- Anchor at the top of the page -->
 		</div>
@@ -27,36 +29,33 @@
 				<a href="https://www.linkedin.com/in/james-homan-22122a226/">LinkedIn</a>
 			</nav>
 		</div>
-		<div id="row">
-			<div id="column">
-				<div id="contact">
-					<h2>CONTACT ME</h2>
-					<form action="#" method="get">
-						<label for="fname">First name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="text" id="fname" name="fname"><br><br><br>
-						
-						&nbsp;<label for="lname">Last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="text" id="lname" name="lname"><br><br><br>
-						
-						&nbsp;&nbsp;<label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="text" id="email" name="email"><br><br>
-						
-						&nbsp;&nbsp;<textarea name="message" rows="10" cols="30" placeholder="Comments...."></textarea><br><br>
-						
-						<br><input type="submit" value="Submit"><br><br>
-						<button onclick="showPopup()">Don't Click Me!</button>
-						<script>
-							function showPopup() {
-								alert("Hey! You pressed the button didn't you!");
-							}
-						</script>
-					</form>
-				</div>
-			</div>
+		<div id="formContainer" class="smallContainer">
+			<h2>CONTACT ME</h2>
+			<form action="#" method="get">
+				<label for="fname">First name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" id="fname" name="fname"><br><br><br>
+				
+				&nbsp;<label for="lname">Last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" id="lname" name="lname"><br><br><br>
+				
+				&nbsp;&nbsp;<label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" id="email" name="email"><br><br>
+				
+				&nbsp;&nbsp;<textarea name="message" rows="10" cols="30" placeholder="Comments...."></textarea><br><br>
+				
+				<br><input type="submit" value="Submit"><br><br>
+				<button onclick="showPopup()">Don't Click Me!</button>
+				<script>
+					function showPopup() {
+						alert("Hey! You pressed the button didn't you!");
+					}
+				</script>
+			</form>
 		</div>
 		<div class="footer">
 			<p style="text-align: center; padding-top: 20px;">&copy; 2025 | James G Homan</p>
-			<p style="text-align: center;">This page was last updated on <strong>May 7, 2025</strong></p>
+			<p style="text-align: center;">This page was last updated on <strong>November 4, 2025</strong></p>
+			<a href="#top"><em> Back To Top </em></a>
 		</div>
 	</body>
 </html>

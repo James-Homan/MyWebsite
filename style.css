@@ -35,6 +35,11 @@ h2 {
     font-family: var(--heading-font);
     color: var(--second-accent-color);
 }
+h4 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+    text-align: center;
+}
 
 li {
     max-width: 600px;
@@ -86,6 +91,13 @@ li {
     box-shadow: 5px 10px;
 }
 
+.smallContainer {
+    padding: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container > div {
     padding: 20px;
 }
@@ -123,6 +135,12 @@ table {
     margin: 20px auto;
 }
 
+table td:nth-child(2),
+table th:nth-child(2) {
+  text-align: right;
+}
+
+
 /* Button */
 .button {
     background-color: var(--accent-color);
@@ -153,14 +171,18 @@ section {
 /* ==========================================================================
    Utility Classes
    ========================================================================== */
-#contact,
-#education {
+#formContainer,
+#education,
+#goals {
     text-align: center;
 }
 
-#goals {
-    margin-left: auto;
-    margin-right: auto;
+#logo {
+    float: left;
+    padding-right: 15px;
+    border-radius: 0px;
+    height:60px;
+    width:60px;
 }
 
 /* ==========================================================================
@@ -168,7 +190,10 @@ section {
    ========================================================================== */
 @media screen and (max-width: 600px) {
     .column.side,
-    .column.middle {
+    .column.middle,
+    .gridContainer,
+    .container,
+    .smallContainer {
         width: 100%;
     }
 }
